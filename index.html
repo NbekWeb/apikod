@@ -1,12 +1,524 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-    
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link/rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <header class="container">
+      <div class="header__branding">
+        <span class="header__logo">АПИКОД</span>
+        <span class="header__tagline">
+          Готовые IT‑решения <br />
+          для бизнеса
+        </span>
+      </div>
+
+      <div class="header__actions flex items-center">
+        <div class="header__contact">
+          <img
+            class="header__contact-icon"
+            src="./img/grouptg.svg"
+            alt="Телеграм‑группа"
+          />
+          <span class="header__contact-phone">+7 (911) 555‑55‑55</span>
+        </div>
+
+        <div class="header__auth">
+          <button class="text-green flex items-center login">
+            <img
+              class="header__button-icon"
+              src="./img/user.svg"
+              alt="Иконка пользователя"
+            />
+            Вход
+          </button>
+          <button
+            class="text-white bg-green regis flex text-white items-center"
+          >
+            Регистрация
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="dashboard" class="dashboard container flex">
+        <div class="dashboard__info flex flex-col relative">
+          <div class="google calendar">
+            <img src="./img/calendar.svg" />
+          </div>
+          <div class="google gmail">
+            <img src="./img/gmail.svg" />
+          </div>
+          <div class="google meet">
+            <img src="./img/meet.svg" />
+          </div>
+          <h1 class="dashboard__title text-grey-300">
+            Привлекайте внимание посетителей сайта
+            <strong class="dashboard__highlight">коротким видео</strong>
+          </h1>
+          <p class="dashboard__subtitle text-grey-400">
+            Ваши посетители не читают длинные тексты? С видеовиджетом они увидят
+            и услышат главное за 60 секунд — это ускоряет принятие решений и
+            повышает продажи
+          </p>
+          <button class="dashboard__btn bg-green text-white flex items-center">
+            Начать бесплатно
+          </button>
+          <span class="dashboard__note text-grey-500"
+            >Первые 7 дней бесплатно</span
+          >
+          <div class="dashboard__features flex items-center text-grey-400">
+            <div class="feature flex items-center">
+              <img src="./img/plus.svg" alt="" class="feature__icon" />
+              <span class="feature__text"
+                >Создай видеовиджет под стиль вашего сайта</span
+              >
+            </div>
+            <div class="feature flex items-center">
+              <img src="./img/plus.svg" alt="" class="feature__icon" />
+              <span class="feature__text">
+                Быстрая и простая установка на ваш сайт, без программистов!
+              </span>
+            </div>
+          </div>
+        </div>
+        <img src="./img/liner.png" class="liner" />
+        <div class="dashboard__media relative">
+          <span class="blur"></span>
+          <img src="./img/hi.png" alt="" class="dashboard__image" />
+          <div class="dashed__border absolute">
+            <div class="relative">
+              <span class="tl"></span>
+              <span class="tr"></span>
+              <span class="bl"></span>
+              <span class="br"></span>
+              <button class="text-white bg-green">Оставить заявку</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="info" class="info relative">
+        <div class="container relative">
+          <h2 class="">
+            Почему сейчас очень
+
+            <strong> важно быстро доносить информацию </strong>
+          </h2>
+          <p class="info__title text-grey-400">
+            В современном мире люди перегружены информацией — десятки сайтов,
+            мессенджеров, соцсетей. У пользователей нет времени вникать в
+            детали. Чтобы заинтересовать, нужно быстро объяснить, кто вы и в чем
+            ваша ценность. Чем быстрее вы это сделаете — тем выше шанс удержать
+            внимание
+          </p>
+          <div class="info__main flex">
+            <div class="info__content text-grey-300 flex flex-col">
+              <div class="info__item">
+                <div class="info__item-icon">
+                  <img src="./img/video.svg" />
+                </div>
+                <span>
+                  Люди потребляют информацию в формате коротких видео — соцсети,
+                  Reels, TikTok</span
+                >
+              </div>
+              <div class="info__item">
+                <div class="info__item-icon">
+                  <img src="./img/cards.svg" />
+                </div>
+                <span
+                  >Внимание рассеивается: баннерная слепота, множество
+                  одинаковых сайтов</span
+                >
+              </div>
+              <div class="info__item">
+                <div class="info__item-icon">
+                  <img src="./img/t.svg" />
+                </div>
+                <span
+                  >Пользователи не читают длинные тексты, им важно быстро
+                  получить суть</span
+                >
+              </div>
+              <div class="info__item green__item">
+                <div class="info__item-icon">
+                  <img src="./img/second-60.svg" />
+                </div>
+                <span>Ваша задача — донести главное за 60 секунд</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="./img/info.png" class="info__media" />
+      </section>
+      <section id="vidjet">
+        <h2>
+          Что такое
+
+          <strong> видеовиджет </strong>
+        </h2>
+        <div class="container vidjet__wrap">
+          <div class="vidjet__item">
+            <div>
+              <span
+                >Видеовиджет помогает моментально донести суть до
+                посетителя</span
+              >
+              <p>
+                Видео запускается автоматически и захватывает внимание с первых
+                секунд. Посетитель не тратит время на поиск нужного текста — он
+                сразу получает ключевое сообщение
+              </p>
+            </div>
+            <img src="./img/vidjet1.png" />
+          </div>
+          <div class="vidjet__item">
+            <div>
+              <span>Говорящее лицо вызывает доверие</span>
+              <p>
+                Когда человек видит реального представителя компании или
+                основателя, он чувствует личное обращение. Это снижает уровень
+                недоверия и повышает лояльность к бренду
+              </p>
+            </div>
+            <img src="./img/vidjet2.png" />
+          </div>
+          <div class="vidjet__item">
+            <div>
+              <span>Видео сложнее проигнорировать, чем текст</span>
+              <p>
+                Прокрутить текст — это одно движение пальцем. А вот при
+                включении видео человек невольно задерживается, слушает голос,
+                смотрит на лицо. Это повышает вовлеченность
+              </p>
+            </div>
+            <img src="./img/vidjet3.png" />
+          </div>
+          <div class="vidjet__item green__vidget">
+            <div>
+              <span>Это не просто дизайн — это инструмент продаж</span>
+              <p>
+                Видеовиджет помогает не украсить сайт, а решить бизнес-задачи:
+                сократить путь до заявки, увеличить конверсии, упростить
+                коммуникацию
+              </p>
+            </div>
+            <img src="./img/vidjet4.png" />
+          </div>
+        </div>
+      </section>
+      <section id="steps" class="relative">
+        <h2>
+          <strong> 6 ключевых </strong>
+          преимуществ использования видеовиджета
+        </h2>
+        <img src="./img/stepliner.png" class="step__liner" />
+        <div class="steps__wrap container">
+          <div class="steps__items">
+            <div class="step__item">
+              <span class="step__title">01</span>
+              <span>Рост конверсий и продаж</span>
+              <p>
+                Видео быстро объясняет суть, снижает барьеры, помогает принять
+                решение и отправить заявку
+              </p>
+            </div>
+            <div class="step__item">
+              <span class="step__title">02</span>
+              <span>Живое общение вместо шаблонов</span>
+              <p>
+                Посетитель видит живого человека, а не обезличенный текст — это
+                вызывает эмоции и формирует связь
+              </p>
+            </div>
+            <div class="step__item">
+              <span class="step__title">03</span>
+              <span>Повышение доверия</span>
+              <p>
+                Люди доверяют людям. Видео создаёт ощущение, что с ними говорят
+                напрямую — это работает лучше любых слов на сайте
+              </p>
+            </div>
+          </div>
+          <div class="flex items-center">
+            <img src="./img/Illustration.png" />
+          </div>
+          <div class="steps__items">
+            <div class="step__item">
+              <span class="step__title">04</span>
+              <span>Ускорение коммуникации</span>
+              <p>
+                Клиент быстрее понимает, что вы предлагаете, и не теряет время
+                на чтение — это экономит время обеим сторонам
+              </p>
+            </div>
+            <div class="step__item">
+              <span class="step__title">05</span>
+              <span>Выделение на фоне конкурентов</span>
+              <p>
+                Пока другие используют однообразные тексты, вы делаете ставку на
+                личный контакт и эффект присутствия
+              </p>
+            </div>
+            <div class="step__item">
+              <span class="step__title">06</span>
+              <span>Привлечение внимания</span>
+              <p>
+                ВАвтовоспроизведение, визуальный контент и звук помогают
+                выделиться в первые секунды
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="examples" class="relative">
+        <h2>
+          Как встроить виджет на сайт
+          <strong> без помощи программистов </strong>
+        </h2>
+        <span class="sub__title"> 3 простых шага</span>
+        <img src="./img/helpliner.png" class="example__liner" />
+        <div class="container relative z-1">
+          <div class="example__steps">
+            <div class="example__item">
+              <span>Шаг №1</span>
+              <h4>Зарегистрируйтесь</h4>
+              <p>
+                Создайте свой аккаунт на нашем сайте. Это займёт не больше
+                минуты
+              </p>
+            </div>
+            <div class="example__item">
+              <span>Шаг №2</span>
+              <h4>Загрузите видео</h4>
+              <p>
+                Снимите и загрузите ваше видео в личном кабинете. Всё интуитивно
+                понятно
+              </p>
+            </div>
+            <div class="example__item">
+              <span>Шаг №3</span>
+              <h4>Вставьте код на сайт</h4>
+              <p>
+                Скопируйте код и вставьте его на сайт, следуя инструкции. Или
+                просто напишите нам — мы установим всё за вас
+              </p>
+            </div>
+          </div>
+          <button class="start__btn bg-green text-white flex items-center">
+            Начать бесплатно
+          </button>
+          <span class="free__time">Первые 7 дней бесплатно</span>
+          <div class="checks_card">
+            <div class="check__item">
+              <div>
+                <img src="./img/check.svg" />
+              </div>
+              <p>Создай видеовиджет под стиль вашего сайта</p>
+            </div>
+            <div class="check__item">
+              <div>
+                <img src="./img/check.svg" />
+              </div>
+              <p>Создай видеовиджет под стиль вашего сайта</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="video__vidjet" class="relative z-1">
+        <div class="container">
+          <div class="flex justify-center">
+            <h2><strong>Видеовиджет решает</strong> разные бизнес-задачи</h2>
+          </div>
+          <div class="videos__wrap">
+            <div class="video__item">
+              <div>
+                <span>Приветствие</span>
+                <p>
+                  Покажите свою открытость и стройте доверительные отношения,
+                  демонстрируя, что за каждым вашим продуктом стоит реальный
+                  человек  
+                </p>
+              </div>
+              <img src="./img/videov1.png" />
+            </div>
+            <div class="video__item">
+              <div>
+                <span>Анонсы товаров, услуг или мероприятий</span>
+                <p>
+                  Анонсируйте запуск новых проектов, курсов, мероприятий или
+                  других значимых событий
+                </p>
+              </div>
+              <img src="./img/videov2.png" />
+            </div>
+            <div class="video__item">
+              <div>
+                <span>Видеоотзывы клиентов</span>
+                <p>
+                  Делитесь настоящими отзывами ваших клиентов. Это укрепляет
+                  доверие и помогает потенциальным покупателям быстрее принять
+                  решение о покупке
+                </p>
+              </div>
+              <img src="./img/videov3.png" />
+            </div>
+            <div class="video__item">
+              <div>
+                <span>Объявления об акциях</span>
+                <p>
+                  Презентуйте свои акции и специальные предложения в
+                  видеоформате. Это мотивирует пользователей воспользоваться
+                  вашими выгодными предложениями
+                </p>
+              </div>
+              <img src="./img/videov4.png" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="create__video">
+        <div class="container">
+          <div class="flex justify-center">
+            <h2>
+              Создай видеовиджет
+              <strong> под стиль вашего сайта </strong>
+            </h2>
+          </div>
+          <div class="create__wrap">
+            <div class="create__media">
+              <div class="relative create__main-img">
+                <img src="./img/create-video.png" />
+                <div class="dashed__border absolute">
+                  <div class="relative">
+                    <span class="tl"></span>
+                    <span class="tr"></span>
+                    <span class="bl"></span>
+                    <span class="br"></span>
+                    <button class="text-white bg-green">Оставить заявку</button>
+                  </div>
+                </div>
+              </div>
+              <img src="./img/color.png" class="picker" />
+            </div>
+            <div class="create__infos">
+              <div class="create__item">
+                <div class="create__icon">
+                  <img src="./img/setting.svg" />
+                </div>
+                <div>
+                  <span> Настройка цвета</span>
+                  <p>
+                    Выберите цвет, который будет идеально сочетаться с вашим
+                    сайтом и брендом. Легко подберите оттенок для фона, текста и
+                    элементов управления
+                  </p>
+                </div>
+              </div>
+              <div class="create__item">
+                <div class="create__icon">
+                  <img src="./img/find.svg" />
+                </div>
+                <div>
+                  <span> Кнопка целевого действия</span>
+                  <p>
+                    Настройте кнопку, чтобы она привлекала внимание и вызывала
+                    клик. Выберите размер, текст и цвет, соответствующие стилю
+                    вашего сайта
+                  </p>
+                </div>
+              </div>
+              <div class="create__item">
+                <div class="create__icon">
+                  <img src="./img/loc.svg" />
+                </div>
+                <div>
+                  <span>Расположение на сайте </span>
+                  <p>
+                    Размещайте видеовиджет в любом месте сайта, где он будет
+                    наиболее эффективен. Выбирайте оптимальную позицию, чтобы
+                    привлечь внимание посетителей и увеличить конверсию
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="payment" class="relative">
+        <img src="./img/liner-pay.png" class="payment__liner" />
+        <div class="container relative z-1">
+          <div class="flex items-center flex-col payment__title">
+            <h2>
+              Превратите  посетителей
+              <strong> в покупателей</strong>
+            </h2>
+            <h3>
+              Единая цена на все возможности видеовиджета для вашего сайта
+            </h3>
+          </div>
+          <div class="flex justify-center">
+
+              <div class="payment__card">
+                <div class="payment__card-title flex-col flex items-center">
+                  <span>Цена</span>
+                  <h4>490 ₽/месяц</h4>
+                </div>
+                <div class="payment__items flex flex-col">
+                  <div class="payment__item">
+                    <img src="./img/check-green.svg" />
+                    <span>Количество сайтов: 
+                      <strong>1</strong>
+                    </span>
+                  </div>
+                  <div class="payment__item">
+                    <img src="./img/check-green.svg" />
+                    <span>Количество виджетов: 
+                      <strong>1</strong>
+                    </span>
+                  </div>
+                  <div class="payment__item">
+                    <img src="./img/check-green.svg" />
+                    <span>Длина видео: 
+                      <strong>до 3 минут</strong>
+                    </span>
+                  </div>
+                  <div class="payment__item">
+                    <img src="./img/check-green.svg" />
+                    <span>Количество показов: 
+                      <strong>Без ограничений</strong>
+                    </span>
+                  </div>
+                  <div class="payment__item">
+                    <img src="./img/check-green.svg" />
+                    <span>Настройки виджета: 
+                      <strong>Без ограничений</strong>
+                    </span>
+                  </div>
+                </div>
+                <div class="free__card flex flex-col items-center">
+                  <span class="free__card-title">Бесплатно</span>
+                  <span>Приоритетная техподдержка</span>
+                  <span>Установка виджета на ваш сайт</span>
+                </div>
+                <button class="flex items-center justify-center text-white bg-green payment__btn">
+                  Начать бесплатно
+                </button>
+                <span class="payment__title-bottom flex justify-center">Первые 7 дней бесплатно</span>
+              </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
