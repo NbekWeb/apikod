@@ -24,12 +24,17 @@
 
       <div class="header__actions flex items-center">
         <div class="header__contact">
-          <img
-            class="header__contact-icon"
-            src="./img/grouptg.svg"
-            alt="Телеграм‑группа"
-          />
-          <span class="header__contact-phone">+7 (911) 555‑55‑55</span>
+          <div class="header__icons flex">
+            <a href="https://t.me/apikod" target="_blank">
+              <img class="" src="./img/tg.svg" />
+            </a>
+            <a href="https://vk.com/apikod" target="_blank" class="vk-round">
+              <img  src="./img/vk-round.svg" />
+            </a>
+          </div>
+          <a href="tel:+79115555555" class="header__contact-phone"
+            >+7 (911) 555‑55‑55</a
+          >
         </div>
 
         <div class="header__auth">
@@ -562,48 +567,50 @@
                 <span class="font-semibold"> ИНН: </span>
                 5902070911
               </span>
+              <span> <span class="font-semibold"> КПП: </span> 590201001 </span>
               <span>
-                <span class="font-semibold"> КПП: </span> 590201001 </span>
-              <span> <span class="font-semibold"> ОГРН:  </span> 1255900004139</span>
-              <span>
-                <span class="font-semibold"> Юридический адрес:  </span> 
-                 614000, РОССИЯ, ПЕРМСКИЙ КРАЙ, Г.О. ПЕРМСКИЙ,
-                Г ПЕРМЬ, УЛ ОКУЛОВА, Д. 31, КВ. 25</span
+                <span class="font-semibold"> ОГРН: </span> 1255900004139</span
               >
-              <span> 
-                <span class="font-semibold"> Почта:  </span>  info@rekoon.ru</span>
+              <span>
+                <span class="font-semibold"> Юридический адрес: </span>
+                614000, РОССИЯ, ПЕРМСКИЙ КРАЙ, Г.О. ПЕРМСКИЙ, Г ПЕРМЬ, УЛ
+                ОКУЛОВА, Д. 31, КВ. 25</span
+              >
+              <span>
+                <span class="font-semibold"> Почта: </span> info@rekoon.ru</span
+              >
             </div>
           </div>
         </div>
         <div class="flex flex-col justify-between">
-            <div class="header__actions flex items-center">
-                <div class="header__contact">
-                  <img
-                    class="header__contact-icon"
-                    src="./img/grouptg.svg"
-                    alt="Телеграм‑группа"
-                  />
-                  <span class="header__contact-phone">+7 (911) 555‑55‑55</span>
-                </div>
-        
-                <div class="header__auth">
-                  <button class="text-green flex items-center login">
-                    <img
-                      class="header__button-icon"
-                      src="./img/user.svg"
-                      alt="Иконка пользователя"
-                    />
-                    Вход
-                  </button>
-                  <button
-                    class="text-white bg-green regis flex text-white items-center"
-                  >
-                    Регистрация
-                  </button>
-                </div>
-              </div>
+          <div class="header__actions flex items-center">
+            <div class="header__contact">
+              <img
+                class="header__contact-icon"
+                src="./img/grouptg.svg"
+                alt="Телеграм‑группа"
+              />
+              <span class="header__contact-phone">+7 (911) 555‑55‑55</span>
+            </div>
+
+            <div class="header__auth">
+              <button class="text-green flex items-center login">
+                <img
+                  class="header__button-icon"
+                  src="./img/user.svg"
+                  alt="Иконка пользователя"
+                />
+                Вход
+              </button>
+              <button
+                class="text-white bg-green regis flex text-white items-center"
+              >
+                Регистрация
+              </button>
+            </div>
+          </div>
           <div class="flex justify-end">
-            <span class="underline">  Политика конфидециальности </span>
+            <a class="underline"> Политика конфидециальности </a>
           </div>
         </div>
       </div>
