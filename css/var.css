@@ -48,13 +48,18 @@
 .items-center{
     align-items: center;
 }
+.justify-end{
+    justify-content: flex-end;
+}
 .justify-between{
     justify-content: space-between;
 }
 .justify-center{
     justify-content: center;
 }
-
+.justify-between{
+    justify-content: space-between;
+}
 /* position */
 
 .relative{
@@ -66,4 +71,8 @@
 
 .z-1{
     z-index: 1;
+}
+
+.underline{
+    text-decoration: underline;
 }
