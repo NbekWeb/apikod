@@ -202,7 +202,7 @@ header {
 /* info */
 
 .info {
-  padding: 100px 0;
+  padding-top: 100px ;
   background: var(--white-900);
 }
 .info .container {
@@ -269,6 +269,7 @@ header {
 .green__item {
   background: var(--green);
   color: var(--white);
+  margin-bottom: 20px;
 }
 .green__item .info__item-icon {
   background: var(--white);

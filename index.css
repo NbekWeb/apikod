@@ -46,3 +46,6 @@ button:hover {
 ol {
   list-style-position: inside;
 }
+h2{
+  color: var(--grey-300);
+}
