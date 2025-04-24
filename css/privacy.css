@@ -66,4 +66,7 @@ li::marker {
         font-size: 14px;
         margin-bottom: 0;
     }
+    ol li p {
+        margin-top: 10px;
+    }
 }
