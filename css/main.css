@@ -383,6 +383,7 @@ header {
   flex-direction: column;
   justify-content: space-between;
   gap: 30px;
+  padding-top: 15px;
 }
 .step__item {
   padding-left: 30px;
