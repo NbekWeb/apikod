@@ -326,7 +326,6 @@
   }
   .dashboard__media {
     max-width: 100%;
-    overflow-x: hidden;
     width: 100%;
     height: auto;
     object-fit: contain;
