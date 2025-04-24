@@ -151,6 +151,8 @@ header {
   filter: blur(120px);
   background: var(--green);
   position: absolute;
+  border-radius: 50%;
+  top: 0;
   right: 0;
 }
 .dashed__border {
@@ -635,8 +637,9 @@ header {
 
 .payment__liner {
   width: 100%;
-  height: auto;
+  height: 100%;
   position: absolute;
+  object-fit: cover;
   top: 0;
   left: 0;
 }
