@@ -41,7 +41,7 @@ button:hover {
   margin-right: auto;
   padding-left: 10px;
   padding-right: 10px;
-  
+  overflow-x: hidden;
   
 }
 
