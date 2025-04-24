@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
     />
-    <link/rel="stylesheet" href="./main.css" />
+    <link/rel="stylesheet" href="./index.css" />
   </head>
   <body>
     <header class="container">
@@ -23,13 +23,13 @@
       </a>
 
       <div class="header__actions flex items-center">
-        <div class="header__contact">
+        <div class="header__contact sm-hidden">
           <div class="header__icons flex">
             <a href="https://t.me/apikod" target="_blank">
               <img class="" src="./img/tg.svg" />
             </a>
             <a href="https://vk.com/apikod" target="_blank" class="vk-round">
-              <img  src="./img/vk-round.svg" />
+              <img src="./img/vk-round.svg" />
             </a>
           </div>
           <a href="tel:+79115555555" class="header__contact-phone"
@@ -47,7 +47,7 @@
             Вход
           </button>
           <button
-            class="btn-green regis flex text-white items-center"
+            class="btn-green regis flex text-white items-center lg-hidden"
           >
             Регистрация
           </button>
@@ -55,33 +55,70 @@
       </div>
     </header>
 
-    <main>
-      <section id="dashboard" class="dashboard container flex">
-        <div class="dashboard__info flex flex-col relative">
-          <div class="google calendar">
-            <img src="./img/calendar.svg" />
+    <main class="">
+      <section id="dashboard" class="container ">
+        <div class="flex dashboard">
+          <div class="dashboard__info flex flex-col relative">
+            <div class="google calendar">
+              <img src="./img/calendar.svg" />
+            </div>
+            <div class="google gmail">
+              <img src="./img/gmail.svg" />
+            </div>
+            <div class="google meet">
+              <img src="./img/meet.svg" />
+            </div>
+            <h1 class="dashboard__title text-grey-300">
+              Привлекайте внимание посетителей сайта
+              <strong class="dashboard__highlight">коротким видео</strong>
+            </h1>
+            <p class="dashboard__subtitle text-grey-400">
+              Ваши посетители не читают длинные тексты? С видеовиджетом они
+              увидят и услышат главное за 60 секунд — это ускоряет принятие
+              решений и повышает продажи
+            </p>
+            <div class="start__btn-res">
+              <button
+                class="dashboard__btn btn-green text-white flex items-center"
+              >
+                Начать бесплатно
+              </button>
+              <span class="dashboard__note text-grey-500"
+                >Первые 7 дней бесплатно</span
+              >
+            </div>
+            <div class="xl-hidden">
+              <div class="dashboard__features flex items-center text-grey-400">
+                <div class="feature flex items-center">
+                  <img src="./img/plus.svg" alt="" class="feature__icon" />
+                  <span class="feature__text"
+                    >Создай видеовиджет под стиль вашего сайта</span
+                  >
+                </div>
+                <div class="feature flex items-center">
+                  <img src="./img/plus.svg" alt="" class="feature__icon" />
+                  <span class="feature__text">
+                    Быстрая и простая установка на ваш сайт, без программистов!
+                  </span>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="google gmail">
-            <img src="./img/gmail.svg" />
+          <div class="dashboard__media relative z-1">
+            <span class="blur"></span>
+            <img src="./img/hi.png" alt="" class="dashboard__image" />
+            <div class="dashed__border absolute">
+              <div class="relative">
+                <span class="tl"></span>
+                <span class="tr"></span>
+                <span class="bl"></span>
+                <span class="br"></span>
+                <button class="btn-green">Оставить заявку</button>
+              </div>
+            </div>
           </div>
-          <div class="google meet">
-            <img src="./img/meet.svg" />
-          </div>
-          <h1 class="dashboard__title text-grey-300">
-            Привлекайте внимание посетителей сайта
-            <strong class="dashboard__highlight">коротким видео</strong>
-          </h1>
-          <p class="dashboard__subtitle text-grey-400">
-            Ваши посетители не читают длинные тексты? С видеовиджетом они увидят
-            и услышат главное за 60 секунд — это ускоряет принятие решений и
-            повышает продажи
-          </p>
-          <button class="dashboard__btn btn-green text-white flex items-center">
-            Начать бесплатно
-          </button>
-          <span class="dashboard__note text-grey-500"
-            >Первые 7 дней бесплатно</span
-          >
+        </div>
+        <div class="xl">
           <div class="dashboard__features flex items-center text-grey-400">
             <div class="feature flex items-center">
               <img src="./img/plus.svg" alt="" class="feature__icon" />
@@ -98,21 +135,8 @@
           </div>
         </div>
         <img src="./img/liner.png" class="liner" />
-        <div class="dashboard__media relative">
-          <span class="blur"></span>
-          <img src="./img/hi.png" alt="" class="dashboard__image" />
-          <div class="dashed__border absolute">
-            <div class="relative">
-              <span class="tl"></span>
-              <span class="tr"></span>
-              <span class="bl"></span>
-              <span class="br"></span>
-              <button class="btn-green">Оставить заявку</button>
-            </div>
-          </div>
-        </div>
       </section>
-      <section id="info" class="info relative">
+      <section id="info" class="info relative ">
         <div class="container relative">
           <h2 class="">
             Почему сейчас очень
@@ -126,6 +150,7 @@
             ваша ценность. Чем быстрее вы это сделаете — тем выше шанс удержать
             внимание
           </p>
+          <img src="./img/info.png" class="info__media lg-hidden" />
           <div class="info__main flex">
             <div class="info__content text-grey-300 flex flex-col">
               <div class="info__item">
@@ -164,9 +189,8 @@
             </div>
           </div>
         </div>
-        <img src="./img/info.png" class="info__media" />
       </section>
-      <section id="vidjet">
+      <section id="vidjet" class="">
         <h2>
           Что такое
 
@@ -222,7 +246,7 @@
           </div>
         </div>
       </section>
-      <section id="steps" class="relative">
+      <section id="steps" class="relative ">
         <h2>
           <strong> 6 ключевых </strong>
           преимуществ использования видеовиджета
@@ -255,7 +279,7 @@
               </p>
             </div>
           </div>
-          <div class="flex items-center">
+          <div class="flex items-center lg-hidden">
             <img src="./img/Illustration.png" />
           </div>
           <div class="steps__items">
@@ -286,8 +310,8 @@
           </div>
         </div>
       </section>
-      <section id="examples" class="relative">
-        <h2>
+      <section id="examples" class="relative ">
+        <h2 class="relative z-1">
           Как встроить виджет на сайт
           <strong> без помощи программистов </strong>
         </h2>
@@ -340,7 +364,7 @@
           </div>
         </div>
       </section>
-      <section id="video__vidjet" class="relative z-1">
+      <section id="video__vidjet" class="relative z-1 ">
         <div class="container">
           <div class="flex justify-center">
             <h2><strong>Видеовиджет решает</strong> разные бизнес-задачи</h2>
@@ -392,7 +416,7 @@
           </div>
         </div>
       </section>
-      <section id="create__video">
+      <section id="create__video" class="">
         <div class="container">
           <div class="flex justify-center">
             <h2>
@@ -460,7 +484,7 @@
           </div>
         </div>
       </section>
-      <section id="payment" class="relative">
+      <section id="payment" class="relative ">
         <img src="./img/liner-pay.png" class="payment__liner" />
         <div class="container relative z-1">
           <div class="flex items-center flex-col payment__title">
@@ -533,16 +557,70 @@
         </div>
       </section>
     </main>
-    <footer>
-      <div class="flex footer container">
-        <div class="footer__left">
-          <a href="index.html" class="header__branding">
-            <span class="header__logo">АПИКОД</span>
-            <span class="header__tagline">
-              Готовые IT‑решения <br />
-              для бизнеса
-            </span>
-          </a>
+    <footer class="">
+      <div class="flex footer container flex-col">
+        <div class="flex justify-between">
+          <div class="footer__left">
+            <a href="index.html" class="header__branding">
+              <span class="header__logo">АПИКОД</span>
+              <span class="header__tagline">
+                Готовые IT‑решения <br />
+                для бизнеса
+              </span>
+            </a>
+          </div>
+          <div class="header__actions flex items-center">
+            <div class="header__contact sm-hidden">
+              <div class="header__icons flex">
+                <a href="https://t.me/apikod" target="_blank">
+                  <img class="" src="./img/tg.svg" />
+                </a>
+                <a
+                  href="https://vk.com/apikod"
+                  target="_blank"
+                  class="vk-round"
+                >
+                  <img src="./img/vk-round.svg" />
+                </a>
+              </div>
+              <a href="tel:+79115555555" class="header__contact-phone"
+                >+7 (911) 555‑55‑55</a
+              >
+            </div>
+
+            <div class="header__auth">
+              <button class="text-green flex items-center login">
+                <img
+                  class="header__button-icon"
+                  src="./img/user.svg"
+                  alt="Иконка пользователя"
+                />
+                Вход
+              </button>
+              <button class="btn-green regis flex text-white items-center">
+                Регистрация
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="header__contact sm">
+          <div class="header__icons flex">
+            <a href="https://t.me/apikod" target="_blank">
+              <img class="" src="./img/tg.svg" />
+            </a>
+            <a
+              href="https://vk.com/apikod"
+              target="_blank"
+              class="vk-round"
+            >
+              <img src="./img/vk-round.svg" />
+            </a>
+          </div>
+          <a href="tel:+79115555555" class="header__contact-phone"
+            >+7 (911) 555‑55‑55</a
+          >
+        </div>
+        <div class="flex justify-between footer-bottom">
           <div class="footer__info flex">
             <div class="">
               <div class="footer__info-program">
@@ -581,40 +659,7 @@
               >
             </div>
           </div>
-        </div>
-        <div class="flex flex-col justify-between">
-          <div class="header__actions flex items-center">
-            <div class="header__contact">
-              <div class="header__icons flex">
-                <a href="https://t.me/apikod" target="_blank">
-                  <img class="" src="./img/tg.svg" />
-                </a>
-                <a href="https://vk.com/apikod" target="_blank" class="vk-round">
-                  <img  src="./img/vk-round.svg" />
-                </a>
-              </div>
-              <a href="tel:+79115555555" class="header__contact-phone"
-                >+7 (911) 555‑55‑55</a
-              >
-            </div>
-    
-            <div class="header__auth">
-              <button class="text-green flex items-center login">
-                <img
-                  class="header__button-icon"
-                  src="./img/user.svg"
-                  alt="Иконка пользователя"
-                />
-                Вход
-              </button>
-              <button
-                class="btn-green regis flex text-white items-center"
-              >
-                Регистрация
-              </button>
-            </div>
-          </div>
-          <div class="flex justify-end">
+          <div class="flex justify-end flex-col">
             <a class="underline"> Политика конфидециальности </a>
           </div>
         </div>
