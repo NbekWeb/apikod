@@ -314,6 +314,9 @@
   }
 }
 @media (max-width: 640px) {
+  .header__auth{
+    display: flex;
+  }
   header {
     padding-top: 10px;
     flex-direction: column;
