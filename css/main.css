@@ -200,35 +200,8 @@ header {
   bottom: -4px;
 }
 
-.google {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 52px;
-  width: 52px;
-  border-radius: 50%;
-  background: var(--white);
-  box-shadow: 6.85px 10.96px 32.2px 0px rgba(184, 191, 203, 0.47);
-}
 
-.google img {
-  width: 30px;
-  height: 30px;
-}
 
-.calendar {
-  top: 20px;
-  right: -30px;
-}
-.gmail {
-  top: 40%;
-  right: 30px;
-}
-.meet {
-  bottom: 100px;
-  right: -20px;
-}
 
 /* info */
 
