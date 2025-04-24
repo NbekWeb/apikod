@@ -476,4 +476,25 @@
   .vidjet__item div {
     gap: 10px;
   }
+  .create__main-img{
+    width: 200px;
+  }
+  .picker{
+    width: 140px;
+  }
+  .create__main-img .btn-green{
+    font-size: 14px;
+    height: 40px;
+    border-radius: 12px;
+  }
+  .dashed__border div {
+    border-radius: 12px;
+  }
+  .dashed__border div span {
+    height: 10px;
+    width: 10px;
+  }
+  .dashed__border{
+    padding: 0 15px;
+  }
 }
