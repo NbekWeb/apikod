@@ -148,7 +148,6 @@
   }
   .dashboard__title {
     padding-top: 0;
-    text-align: center;
   }
   .dashboard__subtitle {
     padding-right: 0px;
@@ -273,7 +272,6 @@
   #create__video h2,
   .privacy h2 {
     font-size: 36px;
-    text-align: center;
   }
   #video__vidjet h2 {
     margin-top: 20px;
