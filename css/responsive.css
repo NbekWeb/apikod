@@ -453,4 +453,8 @@
   .dashboard__info {
     padding-top: 20px;
   }
+  .step__liner{
+    height: auto;
+    width: 100%;
+  }
 }
