@@ -42,7 +42,6 @@
     padding-top: 20px;
     padding-left: 20px;
     overflow-x: hidden;
-
   }
   .vidjet__item div {
     min-width: 300px;
@@ -254,7 +253,9 @@
   #vidjet h2,
   #steps h2,
   #video__vidjet h2,
-  .payment__title h2 {
+  .payment__title h2,
+  #examples h2,
+  #create__video h2 {
     font-size: 36px;
     text-align: center;
   }
@@ -293,13 +294,13 @@
   .payment__title h3 {
     font-size: 16px;
   }
-  .footer-bottom{
+  .footer-bottom {
     flex-direction: column;
     gap: 20px;
   }
-  .footer__info{
+  .footer__info {
     gap: 20px;
-    justify-content: space-between
+    justify-content: space-between;
   }
 }
 @media (max-width: 640px) {
@@ -349,7 +350,9 @@
   #vidjet h2,
   #steps h2,
   #video__vidjet h2,
-  .payment__title h2 {
+  .payment__title h2,
+  #examples h2,
+  #create__video h2 {
     font-size: 28px;
   }
   .info__title {
@@ -410,8 +413,12 @@
     object-fit: contain;
   }
   .video__item p {
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 10px;
+  }
+  .video__item {
+    padding: 10px;
+    border-radius: 12px;
   }
   .video__item,
   .videos__wrap {
@@ -434,11 +441,11 @@
   #payment {
     padding: 20px 0;
   }
-  .payment__title{
+  .payment__title {
     gap: 10px;
     margin-bottom: 20px;
   }
-  .payment__card{
+  .payment__card {
     padding: 20px;
     border-radius: 12px;
   }
@@ -446,14 +453,27 @@
     gap: 10px;
     font-size: 16px;
   }
-  .footer__info{
-    flex-direction: column
+  .footer__info {
+    flex-direction: column;
   }
   .dashboard__info {
     padding-top: 20px;
   }
-  .step__liner{
+  .step__liner {
     height: auto;
     width: 100%;
+  }
+  .vidjet__item span,
+  .video__item span {
+    font-size: 20px;
+    line-height: 1.1;
+  }
+  .vidjet__item,
+  .step__item p {
+    font-size: 14px;
+    line-height: 1.1;
+  }
+  .vidjet__item div {
+    gap: 10px;
   }
 }
