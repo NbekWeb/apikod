@@ -248,6 +248,7 @@
     gap: 10px;
   }
   .header__actions-lg {
+    justify-content: space-between;
     width: 100%;
   }
   .dashboard__title {
