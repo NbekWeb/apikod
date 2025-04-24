@@ -6,7 +6,6 @@ header {
   padding-bottom: 75px;
 }
 
-
 .header__branding {
   display: flex;
   gap: 15px;
@@ -199,9 +198,6 @@ header {
   right: -4px;
   bottom: -4px;
 }
-
-
-
 
 /* info */
 
@@ -711,3 +707,4 @@ header {
 .footer__info-company {
   max-width: 360px;
 }
+

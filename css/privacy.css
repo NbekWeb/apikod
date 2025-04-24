@@ -1,0 +1,53 @@
+/* privacy */
+
+.privacy h2 {
+  margin-bottom: 50px;
+}
+.privacy h2 {
+  font-size: 42px;
+}
+
+ol {
+  list-style-type: decimal;
+  color: var(--grey-300);
+}
+
+ol ol {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+ol > li {
+  counter-reset: sublist;
+}
+
+ol ol > li {
+  counter-increment: sublist;
+}
+
+ol ol > li::before {
+  content: counter(sublist, decimal) ". ";
+}
+
+ol li {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+ol li ol li {
+  font-weight: 400;
+}
+ol li ol li::marker {
+  font-weight: 400;
+}
+
+ol li p {
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+li::marker {
+  font-size: inherit;
+  font-weight: 700;
+}
