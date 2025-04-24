@@ -202,7 +202,7 @@ header {
 /* info */
 
 .info {
-  padding-top: 100px ;
+  padding-top: 100px;
   background: var(--white-900);
 }
 .info .container {
@@ -442,6 +442,11 @@ header {
 
 .start__btn {
   height: 60px;
+  font-size: 18px;
+  width: 240px;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
   border-radius: 20px;
   padding: 0 35px;
   margin: 30px auto 20px auto;
@@ -461,7 +466,7 @@ header {
 }
 .check__item {
   width: 340px;
-  padding: 16px 50px;
+  padding: 16px 40px;
   border-radius: 24px;
   background: var(--white);
   display: flex;
@@ -708,4 +713,3 @@ header {
 .footer__info-company {
   max-width: 360px;
 }
-
