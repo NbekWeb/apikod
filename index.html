@@ -21,9 +21,23 @@
           для бизнеса
         </span>
       </a>
-
-      <div class="header__actions flex items-center">
-        <div class="header__contact sm-hidden">
+      <div class="header__auth lg sm-hidden">
+        <button class="text-green flex items-center login">
+          <img
+            class="header__button-icon"
+            src="./img/user.svg"
+            alt="Иконка пользователя"
+          />
+          Вход
+        </button>
+        <button
+          class="btn-green regis flex text-white items-center "
+        >
+          Регистрация
+        </button>
+      </div>
+      <div class="header__actions flex items-center header__actions-lg">
+        <div class="header__contact ">
           <div class="header__icons flex">
             <a href="https://t.me/apikod" target="_blank">
               <img class="" src="./img/tg.svg" />
@@ -37,7 +51,7 @@
           >
         </div>
 
-        <div class="header__auth">
+        <div class="header__auth lg-hidden sm">
           <button class="text-green flex items-center login">
             <img
               class="header__button-icon"
@@ -47,7 +61,7 @@
             Вход
           </button>
           <button
-            class="btn-green regis flex text-white items-center lg-hidden"
+            class="btn-green regis flex text-white items-center "
           >
             Регистрация
           </button>
@@ -559,7 +573,7 @@
     </main>
     <footer class="relative z-1">
       <div class="flex footer container flex-col">
-        <div class="flex justify-between">
+        <div class="flex justify-between wrapper">
           <div class="footer__left">
             <a href="index.html" class="header__branding">
               <span class="header__logo">АПИКОД</span>
@@ -570,7 +584,7 @@
             </a>
           </div>
           <div class="header__actions flex items-center">
-            <div class="header__contact sm-hidden">
+            <div class="header__contact ">
               <div class="header__icons flex">
                 <a href="https://t.me/apikod" target="_blank">
                   <img class="" src="./img/tg.svg" />
@@ -597,28 +611,11 @@
                 />
                 Вход
               </button>
-              <button class="btn-green sm-hidden regis flex text-white items-center">
+              <button class="btn-green  regis flex text-white items-center">
                 Регистрация
               </button>
             </div>
           </div>
-        </div>
-        <div class="header__contact sm">
-          <div class="header__icons flex">
-            <a href="https://t.me/apikod" target="_blank">
-              <img class="" src="./img/tg.svg" />
-            </a>
-            <a
-              href="https://vk.com/apikod"
-              target="_blank"
-              class="vk-round"
-            >
-              <img src="./img/vk-round.svg" />
-            </a>
-          </div>
-          <a href="tel:+79115555555" class="header__contact-phone"
-            >+7 (911) 555‑55‑55</a
-          >
         </div>
         <div class="flex justify-between footer-bottom">
           <div class="footer__info flex">

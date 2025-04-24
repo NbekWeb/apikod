@@ -690,7 +690,7 @@ header {
 
 .free__card {
   width: 100%;
-  padding: 16px 0;
+  padding: 16px 5px;
   color: var(--grey-300);
   background: #57af4114;
   font-size: 18px;
