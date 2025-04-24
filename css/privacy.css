@@ -60,5 +60,10 @@ li::marker {
 @media (max-width: 768px) {
     ol li{
         font-size: 18px;
+        margin-bottom: 15px;
+    }
+    ol li li{
+        font-size: 14px;
+        margin-bottom: 0;
     }
 }
